@@ -16,3 +16,7 @@ function addNewElementAsLi() {
   li.innerHTML = retrieveEmployeeInformation();
   document.querySelector('.employee-list').appendChild(li)
 }
+
+function addNewLiOnClick() {
+  
+}
