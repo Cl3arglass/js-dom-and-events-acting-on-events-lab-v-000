@@ -10,3 +10,9 @@ function retrieveEmployeeInformation() {
   // return $(':input').val();
   return document.querySelector('form').querySelector('input').value;
 }
+
+function addNewElementAsLi() {
+  let li = document.createElement('li');
+  li.innerHTML = retrieveEmployeeInformation();
+  document.querySelector('.employee-list').appendChild(li)
+}
