@@ -21,3 +21,7 @@ function addNewLiOnClick() {
   document.querySelector('form').addEventListener('submit', addNewElementAsLi());
   document.querySelector('input').value = ''
 }
+
+function clearEmployeeListOnLinkClick() {
+  document.querySelector('ul').innerHTML = '';
+}
